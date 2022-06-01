@@ -1,0 +1,4 @@
+{
+    "input": "$util.escapeJavaScript($input.json('$'))",
+    "stateMachineArn": "${aws_sfn_state_machine.sfn_state_machine.arn}"
+}
